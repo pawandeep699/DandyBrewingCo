@@ -1,1 +1,31 @@
+p.club {
 
+    font-size: xx-small;
+    text-align: center;
+}
+
+header {
+
+    font-size: 50px;
+    text-align: center;
+}
+
+nav {
+
+    list-style-type: upper-roman;
+    background-color: lawngreen;
+    padding: 0%;
+}
+li{
+    display: inline;
+    border-right: 2px solid black;
+}
+
+li a {
+
+    
+    color: black;
+    text-align: center;
+
+
+}
