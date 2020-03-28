@@ -1,1 +1,49 @@
+<!DOCTYPE html >
+<html lang = "en - us ">
+<head>
 
+    <meta charset="utf - 8 ">
+    <meta name = "Parry Sobti ,Caleb Annunziello,Epson Ronquillo,Pawandeep Singh Grewal" content = "Dandy Brewing company all products
+    and services info ">
+    <title>Dandy Brewing company </title>
+    <link rel = "stylesheet" href="findStores.css">
+</head>
+
+<body>
+    <p class ="club">The</p>
+    <header>DANDY</header>
+    <p class ="club">brewing company</p>
+    <p class ="club">EST - 2014</p>
+     <nav>
+         <ul>
+             <li><a href = "mainPage.html">Home</a></li>
+             <li><a href = "flavours.html">Our Flavours</a></li>
+             <li><a href = "aboutBeer.html">About Us </a></li>
+             <li><a href = "events.html">Events</a></li>
+             <li><a href = "followUs.html">Follow Us </a></li>
+             <li><a href = "contactUs.html">Contact US </a></li>
+         </ul>
+     </nav>
+
+    <header> Our Products are available in Following Stores -: </header>
+     
+    
+    <div id = "findStore" style="width:100%;height:500px;"></div>
+     
+     <script>
+     function popNx(){
+
+        var  maping = {
+            center:new google.maps.LatLng(51.508742,-0.120850),
+            zoom:5,
+        };
+
+        var uio = new google.maps.Map(document.getElementById("findStore"),maping);
+     }
+     </script>
+     
+     <script src="https://maps.googleapis.com/maps/api/js?key=
+     AIzaSyCKqltT8ONUNQBkAUMhEx9zvpcomoNxtB4&callback=popNx"></script>
+     
+     </body>
+     </html> 
