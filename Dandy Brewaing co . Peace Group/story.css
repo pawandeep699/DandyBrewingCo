@@ -1,1 +1,36 @@
+article {
 
+    text-align: center;
+}
+
+
+nav {
+
+    list-style-type: upper-roman;
+    background-color: lawngreen;
+    padding: 0.5%;
+}
+li{
+    display: inline;
+}
+
+li a {
+
+    
+    color: lightcyan;
+    text-align: center;
+
+
+}
+
+p.club {
+
+    font-size: xx-small;
+    text-align: center;
+}
+
+header {
+
+    font-size: 50px;
+    text-align: center;
+}
