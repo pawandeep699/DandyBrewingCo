@@ -39,6 +39,9 @@ function erase(){
   
 }
 
+function bob(){
+    document.getElementById("clearInput").reset();
+}
 
 button.addEventListener("click",submit);
 clean.addEventListener("click",erase);
